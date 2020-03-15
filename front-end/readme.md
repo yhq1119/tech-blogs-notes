@@ -1,4 +1,4 @@
-Here stores the files needed for front-end.
+## Here stores the files needed for front-end.
 
 [Troubleshooting with 'Unexpected end of JSON input while parsing near...'](https://github.com/yhq1119/tech-blogs-notes/blob/master/front-end/vue-cli-trouble-shooting.md)
 
