@@ -1,4 +1,6 @@
 # tech-blogs-notes
 
 If you do not know, try google:)
-[Google]:https://www.google.com
+[Google.com](https://www.google.com)
+
+My [personal website](https://www.nathan-yang.com)
