@@ -68,7 +68,7 @@ for the above example data you can just break it into computed methods:
 
 <template>
   <ul>
-    <li v-for="(item, index) in items" :key="index"> <!-- Notice the items here! -->
+    <li v-for="(item, index) in grandsons" :key="index"> <!-- Notice the grandsons here! -->
         {{do something here}}
     </li>
   </ul>
