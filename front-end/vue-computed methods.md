@@ -67,8 +67,11 @@ for the above example data you can just break it into computed methods:
 ```HTML
 
 <template>
-  
-
+  <ul>
+    <li v-for="(item, index) in items" :key="index"> <!-- Notice the items here! -->
+        {{do something here}}
+    </li>
+  </ul>
 </template>
 <script>
 //...
