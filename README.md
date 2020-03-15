@@ -3,4 +3,7 @@
 If you do not know, try google:)
 [Google.com](https://www.google.com)
 
-My [personal website](https://www.nathan-yang.com)
+My [Personal Website](https://www.nathan-yang.com)
+
+Blogs categories:
+[Frontend](https://github.com/yhq1119/tech-blogs-notes/tree/master/front-end)
