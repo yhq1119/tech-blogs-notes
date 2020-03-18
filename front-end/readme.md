@@ -7,3 +7,5 @@
 [Computed methods in Vue.js](https://github.com/yhq1119/tech-blogs-notes/blob/master/front-end/vue-computed%20methods.md)
 
 [CSS Fundamentals Tutorials](https://github.com/yhq1119/tech-blogs-notes/blob/master/front-end/CSS-tutorial-notes.md)
+
+[jQuery-tutorial](https://github.com/yhq1119/tech-blogs-notes/blob/master/front-end/jQuery-tutorial.md)
