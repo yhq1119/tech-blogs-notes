@@ -314,6 +314,6 @@ composer install
     </body>
   </html>
   ```
-  [delete]Maybe you can also do this to $_GET[delete]
+  <s>Maybe you can also do this to $_GET</s>
 
 
