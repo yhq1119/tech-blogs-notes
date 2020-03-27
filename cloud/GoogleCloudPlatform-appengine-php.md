@@ -315,5 +315,13 @@ composer install
   </html>
   ```
   <s>Maybe you can also do this to $_GET</s>
-
+  - echo!
+  ```PHP
+  if($flag){
+     echo "<span style='color: red'>Error Message</span>"
+  }
+  ```
+  
+ # Now we have all the needed knowledge to build it. Let's make a simplest one!
+ 
 
