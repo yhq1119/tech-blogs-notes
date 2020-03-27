@@ -293,7 +293,7 @@ composer install
   // do what you want to
   }
   // OR
-  if(array_key_exists($_POST,'/KEY YOU WANT TO USE/')){// similar as above
+  if(array_key_exists('/KEY YOU WANT TO USE/',$_POST)){// similar as above
   // do whatever
   }
   // OR
