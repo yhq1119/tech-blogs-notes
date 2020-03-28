@@ -172,16 +172,6 @@ php composer-setup.php --install-dir=bin --filename=composer
 mkdir php-gcp-app
 cd php-gcp-app
 ```
-- create ~/composer.json
-```json
-{
-    "name":"",
-    "description": "",
-    "require": {
-        "google/cloud-datastore": "^1.11"
-    }
-}
-```
 - create ~/app.yaml (if you want to use some css file at /css folder, create it in your project folder and add it in the yaml file like this:)
 ```yaml
 runtime: php7
@@ -195,7 +185,7 @@ handlers:
 ```
 - install google/cloud/datastore (notice: this should be in the folder which has composer.json)
 ```powershell
-composer install
+composer require google/cloud-datastore
 ```
 
 ## Core function of GCP datastore (Create Read Update Delete)
