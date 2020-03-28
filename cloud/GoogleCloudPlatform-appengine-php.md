@@ -312,6 +312,13 @@ composer require google/cloud-datastore
      echo "<span style='color: red'>Error Message</span>"
   }
   ```
+
+
+## Sometimes the datastore would need to create index for its instances.
+   To solve that you can simply deploy the index.yaml
+     ```Powershell
+ gcloud app deploy index.yaml --project=/YOUR PROJECT ID/
+  ```
   
  # Now we have all the needed knowledge to build it. Let's make a simplest one!
  
