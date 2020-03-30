@@ -125,7 +125,7 @@ public class ExampleController {
     private static final String template = "Hello, %s!"; // Here writes the simplest template for the content.
     private final AtomicLong counter = new AtomicLong(); // generate an instance of the id object
 
-    @GetMapping("/greeting") // maps this method to relative url :/greeting , **the base url could be http://localhost:8080 which host by tomcat
+    @GetMapping("/greeting") // maps the HTTP GET method to relative url :/greeting , **the base url could be http://localhost:8080 which host by tomcat
     public Example greeting(@RequestParam(value = "name", defaultValue = "World") String name) { // this line means if no parameter like "name=???"exists, the name value would be 'World'
         return new Example(counter.incrementAndGet(), String.format(template, name)); // Here returns JSON.parse(new Example(bla bla))
     }
@@ -171,3 +171,11 @@ if you go ***`http://localhost:8080/greeting?name=yourname`*** the output could 
 ```powershell
 {"id":2,"content":"Hello, yourname!"}
 ```
+
+- Things to notice
+  - The Entry class should not be in the default package i.e the ***`~/src/main/java/`***
+  - The least parts of the application requires the @SpringBootApplication @RestController and these two should be in same or sub package i.e  
+  ```tree
+  ~\src\main\java\pack1\Entry.java (with @SpringBootApplication)
+  ~\src\main\java\pack1\~whatever-and-can-be-none\Controller.java (with @RestController)
+  ```
