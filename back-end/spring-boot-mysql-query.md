@@ -55,12 +55,12 @@ public class BookController {
     @GetMapping("/book")
     public List all(){
         return bs.findList();
-        // 根据什么顺序显示的
+        
     }
     @GetMapping("/book/price/{price}")
     public List nearestPrice(@PathVariable("price") Double price){
         return br.findNearestPrice(price);
-        // 根据什么顺序显示的
+       
     }
     @GetMapping("/book/{id}")
     public BookVO getOne(@PathVariable("id") Integer id){
