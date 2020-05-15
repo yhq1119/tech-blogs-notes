@@ -8,9 +8,10 @@ Credit: https://www.raspberrypi.org/downloads/
 - Write Raspberry OS image using Imager
   (Example: OS: Raspbian, SD: target SD card, write)
 - After finished, plug SD card to raspberry pi
-
-#### Notice: the default user is ```pi```
-#### Notice: the default password is ```raspberry```
+ 
+Notice: 
+* The default user is ```pi```
+* The default password is ```raspberry```
 
 ### connect the Raspberry Pi to computer
 - Connect the raspberry pi to computer using USB-netcable
